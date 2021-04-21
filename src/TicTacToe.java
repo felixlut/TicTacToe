@@ -29,6 +29,8 @@ public class TicTacToe {
 
         char markInTurn = player1;
         boolean winner = false;
+
+        // Game-loop, while noone has won, and the board isn't full, we take a new turn
         while(!board.boardIsFull() && !winner) {
             // Print the board
             System.out.println(board);
